@@ -73,4 +73,5 @@ body, .W_main, .WB_global_nav .gn_bg {
   border: none; }
   .WB_feed a.notes:hover {
     background: none;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #d77b11; }
