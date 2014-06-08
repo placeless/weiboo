@@ -17,6 +17,7 @@
 // .WB_feed_type.SW_fun.W_no_border.S_line2 // 引用微博的框线
 // .WB_feed .WB_feed_together               // 还有 n 条对原微博的转发
 // .WB_feed .WB_arrow                       // 引用微博区块上边的箭头
+// .WB_webim .wbim_min_friend .statusbox i  // 私信小方块图标
 
 #pl_leftnav_group,
 #pl_leftnav_app,
@@ -35,7 +36,8 @@
 .WB_feed_type.SW_fun.S_line2.type_spe,
 .WB_feed_type.SW_fun.W_no_border.S_line2,
 .WB_feed .WB_feed_together,
-.WB_feed .WB_arrow
+.WB_feed .WB_arrow,
+.WB_webim .wbim_min_friend .statusbox i
   display: none
 
 // 鼠标滑过显示：
@@ -95,3 +97,19 @@ body, .W_main, .WB_global_nav .gn_bg
 // 引用微博图片圆角
 .WB_feed .WB_media_list li img
   border-radius: 8px
+
+// 页面右下角 私信聊天
+.WB_webim .webim_win_minD
+  width: 80px !important
+
+.WB_webim .wbim_min_friend .statusbox
+  padding: 0 !important
+  margin: 0 !important
+
+// 新微博提示
+.WB_feed a.notes
+  background: none
+  border: none
+  &:hover
+    background: none
+    text-decoration: none

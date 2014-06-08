@@ -15,7 +15,8 @@
 .WB_feed_type.SW_fun.S_line2.type_spe,
 .WB_feed_type.SW_fun.W_no_border.S_line2,
 .WB_feed .WB_feed_together,
-.WB_feed .WB_arrow {
+.WB_feed .WB_arrow,
+.WB_webim .wbim_min_friend .statusbox i {
   display: none; }
 
 .WB_func,
@@ -59,3 +60,17 @@ body, .W_main, .WB_global_nav .gn_bg {
 
 .WB_feed .WB_media_list li img {
   border-radius: 8px; }
+
+.WB_webim .webim_win_minD {
+  width: 80px !important; }
+
+.WB_webim .wbim_min_friend .statusbox {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.WB_feed a.notes {
+  background: none;
+  border: none; }
+  .WB_feed a.notes:hover {
+    background: none;
+    text-decoration: none; }
