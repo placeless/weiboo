@@ -75,3 +75,6 @@ body, .W_main, .WB_global_nav .gn_bg {
     background: none;
     text-decoration: none;
     color: #d77b11; }
+
+.WB_left_nav .lev a:hover {
+  background: #f8f8f8; }
