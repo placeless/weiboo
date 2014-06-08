@@ -1,0 +1,61 @@
+#pl_leftnav_group,
+#pl_leftnav_app,
+.left_nav_line,
+#Box_right,
+#pl_content_biztips,
+.footer_adv,
+.global_footer,
+.title_area,
+.WB_feed_datail .S_line2,
+.tab_nosep,
+.group_read,
+.W_ico16,
+.icon_fifa,
+.send_weibo .input .arrow,
+.WB_feed_type.SW_fun.S_line2.type_spe,
+.WB_feed_type.SW_fun.W_no_border.S_line2,
+.WB_feed .WB_feed_together,
+.WB_feed .WB_arrow {
+  display: none; }
+
+.WB_func,
+.map_data,
+.func_area {
+  opacity: 0; }
+
+.WB_func:hover,
+.map_data:hover,
+.func_area:hover {
+  opacity: 1; }
+
+.WB_feed .WB_text {
+  padding: 10px 0 10px; }
+
+body, .W_main, .WB_global_nav .gn_bg {
+  background: none; }
+
+.WB_global_nav {
+  box-shadow: none; }
+
+.W_main_a {
+  background: none;
+  width: 590px; }
+
+.B_index .W_main_l {
+  padding: 30px; }
+
+.WB_feed .WB_feed_datail {
+  border: none; }
+
+.W_face_radius {
+  border-radius: 25px; }
+
+.WB_feed .WB_media_expand {
+  border: none;
+  border-radius: 8px; }
+
+.S_bg1, a.W_gotop, .SW_fun_bg {
+  background-color: #f8f8f8; }
+
+.WB_feed .WB_media_list li img {
+  border-radius: 8px; }

@@ -1,0 +1,97 @@
+
+// #pl_leftnav_group,                       // 好友圈，分组
+// #pl_leftnav_app,                         // 官方应用，最近使用
+// .left_nav_line,                          // 左边栏的分割线
+// #Box_right,                              // 整个右边栏
+// #pl_content_biztips,
+// .footer_adv,                             // 页脚横幅广告
+// .global_footer,                          // 微博页脚
+// .title_area,                             // 有什么新鲜事想告诉大家
+// .WB_feed_datail .S_line2,                // 推荐：好友关注
+// .tab_nosep,
+// .group_read,
+// .W_ico16,                                // 各种认证图标
+// .icon_fifa,                              // 世界杯
+// .send_weibo .input .arrow,               // 发送框旁边的箭头
+// .WB_feed_type.SW_fun.S_line2.type_spe,   // 推广feed
+// .WB_feed_type.SW_fun.W_no_border.S_line2 // 引用微博的框线
+// .WB_feed .WB_feed_together               // 还有 n 条对原微博的转发
+// .WB_feed .WB_arrow                       // 引用微博区块上边的箭头
+
+#pl_leftnav_group,
+#pl_leftnav_app,
+.left_nav_line,
+#Box_right,
+#pl_content_biztips,
+.footer_adv,
+.global_footer,
+.title_area,
+.WB_feed_datail .S_line2,
+.tab_nosep,
+.group_read,
+.W_ico16,
+.icon_fifa,
+.send_weibo .input .arrow,
+.WB_feed_type.SW_fun.S_line2.type_spe,
+.WB_feed_type.SW_fun.W_no_border.S_line2,
+.WB_feed .WB_feed_together,
+.WB_feed .WB_arrow
+  display: none
+
+// 鼠标滑过显示：
+// 微博撰写框下的小工具栏，
+// 微博尾巴，
+// 地理位置等
+
+.WB_func,
+.map_data,
+.func_area
+  opacity: 0
+
+.WB_func:hover,
+.map_data:hover,
+.func_area:hover
+  opacity: 1
+
+// 微博内容上下加点呼吸空间
+.WB_feed .WB_text
+  padding: 10px 0 10px
+
+// 移除上导航条背景
+body, .W_main, .WB_global_nav .gn_bg
+  background: none
+
+// 移除上导航条阴影
+.WB_global_nav
+  box-shadow: none
+
+// 移除微博展示区域背景，设置宽度和圆角
+.W_main_a
+  background: none
+  width: 590px
+  // border-radius: 6px
+
+// 左边栏呼吸空间调整：首页，消息，收藏，发给我的
+.B_index .W_main_l
+  padding: 30px
+
+// 微博之间的横线
+.WB_feed .WB_feed_datail
+  border: none
+
+// 用户头像圆角
+.W_face_radius
+  border-radius: 25px
+
+// 转发框
+.WB_feed .WB_media_expand
+  border: none
+  border-radius: 8px
+
+// 引用微博区块的背景颜色：淡淡的灰色
+.S_bg1, a.W_gotop, .SW_fun_bg
+  background-color: #F8F8F8
+
+// 引用微博图片圆角
+.WB_feed .WB_media_list li img
+  border-radius: 8px
