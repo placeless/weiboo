@@ -1,23 +1,25 @@
 
-// #pl_leftnav_group,                       // 好友圈，分组
-// #pl_leftnav_app,                         // 官方应用，最近使用
-// .left_nav_line,                          // 左边栏的分割线
-// #Box_right,                              // 整个右边栏
+// #pl_leftnav_group,                        *** 好友圈，分组
+// #pl_leftnav_app,                          *** 官方应用，最近使用
+// .left_nav_line,                           *** 左边栏的分割线
+// #Box_right,                               *** 整个右边栏
 // #pl_content_biztips,
-// .footer_adv,                             // 页脚横幅广告
-// .global_footer,                          // 微博页脚
-// .title_area,                             // 有什么新鲜事想告诉大家
-// .WB_feed_datail .S_line2,                // 推荐：好友关注
+// .footer_adv,                              *** 页脚横幅广告
+// .global_footer,                           *** 微博页脚
+// .title_area,                              *** 有什么新鲜事想告诉大家
+// .WB_feed_datail .S_line2,                 *** 推荐：好友关注
 // .tab_nosep,
 // .group_read,
-// .W_ico16,                                // 各种认证图标
-// .icon_fifa,                              // 世界杯
-// .send_weibo .input .arrow,               // 发送框旁边的箭头
-// .WB_feed_type.SW_fun.S_line2.type_spe,   // 推广feed
-// .WB_feed_type.SW_fun.W_no_border.S_line2 // 引用微博的框线
-// .WB_feed .WB_feed_together               // 还有 n 条对原微博的转发
-// .WB_feed .WB_arrow                       // 引用微博区块上边的箭头
-// .WB_webim .wbim_min_friend .statusbox i  // 私信小方块图标
+// .W_ico16,                                 *** 各种认证图标
+// .icon_fifa,                               *** 世界杯
+// .send_weibo .input .arrow,                *** 发送框旁边的箭头
+// .send_weibo .input.clicked .arrow,        *** 发送框旁边的箭头
+// .WB_feed_type.SW_fun.S_line2.type_spe,    *** 推广feed
+// .WB_feed_type.SW_fun.W_no_border.S_line2  *** 引用微博的框线
+// .WB_feed .WB_feed_together                *** 还有 n 条对原微博的转发
+// .WB_feed .WB_arrow                        *** 引用微博区块上边的箭头
+// .WB_webim .wbim_min_friend .statusbox i   *** 私信小方块图标
+// .W_tips.tips_error                        *** 开通微博会员提示
 
 #pl_leftnav_group,
 #pl_leftnav_app,
@@ -33,11 +35,13 @@
 .W_ico16,
 .icon_fifa,
 .send_weibo .input .arrow,
+.send_weibo .input.clicked .arrow,
 .WB_feed_type.SW_fun.S_line2.type_spe,
 .WB_feed_type.SW_fun.W_no_border.S_line2,
 .WB_feed .WB_feed_together,
 .WB_feed .WB_arrow,
-.WB_webim .wbim_min_friend .statusbox i
+.WB_webim .wbim_min_friend .statusbox i,
+.W_tips.tips_error
   display: none
 
 // 鼠标滑过显示：
@@ -115,5 +119,6 @@ body, .W_main, .WB_global_nav .gn_bg
     text-decoration: none
     color: #D77B11
 
+// 左导航 hover 颜色
 .WB_left_nav .lev a:hover
   background: #F8F8F8

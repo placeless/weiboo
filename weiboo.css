@@ -12,11 +12,13 @@
 .W_ico16,
 .icon_fifa,
 .send_weibo .input .arrow,
+.send_weibo .input.clicked .arrow,
 .WB_feed_type.SW_fun.S_line2.type_spe,
 .WB_feed_type.SW_fun.W_no_border.S_line2,
 .WB_feed .WB_feed_together,
 .WB_feed .WB_arrow,
-.WB_webim .wbim_min_friend .statusbox i {
+.WB_webim .wbim_min_friend .statusbox i,
+.W_tips.tips_error {
   display: none; }
 
 .WB_func,
