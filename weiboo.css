@@ -23,12 +23,14 @@
 
 .WB_func,
 .map_data,
-.func_area {
+.func_area,
+.comment_list dd .info {
   opacity: 0; }
 
 .WB_func:hover,
 .map_data:hover,
-.func_area:hover {
+.func_area:hover,
+.comment_list dd .info:hover {
   opacity: 1; }
 
 .WB_feed .WB_text {
@@ -55,7 +57,8 @@ body, .W_main, .WB_global_nav .gn_bg {
 
 .WB_feed .WB_media_expand {
   border: none;
-  border-radius: 8px; }
+  border-radius: 8px;
+  padding: 20px 20px 10px; }
 
 .S_bg1, a.W_gotop, .SW_fun_bg {
   background-color: #f8f8f8; }
@@ -80,3 +83,9 @@ body, .W_main, .WB_global_nav .gn_bg {
 
 .WB_left_nav .lev a:hover {
   background: #f8f8f8; }
+
+.S_line1 {
+  border-color: #f8f8f8; }
+
+.comment_list img {
+  border-radius: 30px; }

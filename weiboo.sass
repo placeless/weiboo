@@ -51,17 +51,20 @@
 
 .WB_func,
 .map_data,
-.func_area
+.func_area,
+.comment_list dd .info,
   opacity: 0
 
 .WB_func:hover,
 .map_data:hover,
-.func_area:hover
+.func_area:hover,
+.comment_list dd .info:hover,
   opacity: 1
 
 // 微博内容上下加点呼吸空间
 .WB_feed .WB_text
   padding: 10px 0 10px
+
 
 // 移除上导航条背景
 body, .W_main, .WB_global_nav .gn_bg
@@ -71,28 +74,35 @@ body, .W_main, .WB_global_nav .gn_bg
 .WB_global_nav
   box-shadow: none
 
+
 // 移除微博展示区域背景，设置宽度和圆角
 .W_main_a
   background: none
   width: 590px
   // border-radius: 6px
 
+
 // 左边栏呼吸空间调整：首页，消息，收藏，发给我的
 .B_index .W_main_l
   padding: 30px
+
 
 // 微博之间的横线
 .WB_feed .WB_feed_datail
   border: none
 
+
 // 用户头像圆角
 .W_face_radius
   border-radius: 25px
 
-// 转发框
+
+// 转发内容展示框
 .WB_feed .WB_media_expand
   border: none
   border-radius: 8px
+  padding: 20px 20px 10px
+
 
 // 引用微博区块的背景颜色：淡淡的灰色
 .S_bg1, a.W_gotop, .SW_fun_bg
@@ -102,6 +112,7 @@ body, .W_main, .WB_global_nav .gn_bg
 .WB_feed .WB_media_list li img
   border-radius: 8px
 
+
 // 页面右下角 私信聊天
 .WB_webim .webim_win_minD
   width: 80px !important
@@ -109,6 +120,7 @@ body, .W_main, .WB_global_nav .gn_bg
 .WB_webim .wbim_min_friend .statusbox
   padding: 0 !important
   margin: 0 !important
+
 
 // 新微博提示
 .WB_feed a.notes
@@ -119,6 +131,15 @@ body, .W_main, .WB_global_nav .gn_bg
     text-decoration: none
     color: #D77B11
 
+
 // 左导航 hover 颜色
 .WB_left_nav .lev a:hover
   background: #F8F8F8
+
+
+// 评论区域分割线颜色
+.S_line1
+  border-color: #F8F8F8
+
+.comment_list img
+  border-radius: 30px
