@@ -56,6 +56,8 @@ body, .W_main, .WB_global_nav .gn_bg {
   .gn_search.gn_clicked, .gn_search:hover {
     border: none !important;
     box-shadow: none !important; }
+    .gn_search.gn_clicked .gn_input, .gn_search:hover .gn_input {
+      color: #FFF !important; }
 
 .gn_topmenulist {
   border: none; }
