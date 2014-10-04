@@ -18,8 +18,13 @@
 .WB_feed .WB_feed_together,
 .WB_feed .WB_arrow,
 .WB_webim .wbim_min_friend .statusbox i,
-.W_tips.tips_error {
-  display: none; }
+.W_tips.tips_error,
+div[node-type=hot],
+div[node-type=game],
+div[node-type=member],
+div[node-type=logo],
+.gn_btn {
+  display: none !important; }
 
 .WB_func,
 .map_data,
@@ -42,6 +47,23 @@ body, .W_main, .WB_global_nav .gn_bg {
 .WB_global_nav {
   box-shadow: none; }
 
+.gn_nav {
+  margin: 0 0 0 45px !important; }
+
+.gn_search {
+  margin: 7px 0 0 220px !important;
+  background: none !important; }
+  .gn_search.gn_clicked, .gn_search:hover {
+    border: none !important;
+    box-shadow: none !important; }
+
+.gn_topmenulist {
+  border: none; }
+
+.gn_topmenulist_search {
+  border-radius: 4px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2); }
+
 .W_main_a {
   background: none;
   width: 590px; }
@@ -61,7 +83,7 @@ body, .W_main, .WB_global_nav .gn_bg {
   padding: 20px 20px 10px; }
 
 .S_bg1, a.W_gotop, .SW_fun_bg {
-  background-color: #f8f8f8; }
+  background-color: #F8F8F8; }
 
 .WB_feed .WB_media_list li img {
   border-radius: 8px; }
@@ -79,13 +101,15 @@ body, .W_main, .WB_global_nav .gn_bg {
   .WB_feed a.notes:hover {
     background: none;
     text-decoration: none;
-    color: #d77b11; }
+    color: #D77B11; }
 
 .WB_left_nav .lev a:hover {
-  background: #f8f8f8; }
+  background: #F8F8F8; }
 
 .S_line1 {
-  border-color: #f8f8f8; }
+  border-color: #F8F8F8; }
 
 .comment_list img {
   border-radius: 30px; }
+
+/*# sourceMappingURL=weiboo.css.map */
