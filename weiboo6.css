@@ -1,0 +1,99 @@
+.WB_main_r,
+.title_area,
+.gn_logo,
+.ficon_user,
+.ficon_search,
+.WB_from,
+.W_arrow_bor,
+.send_weibo,
+.gn_person,
+.W_vline,
+.W_icon,
+.W_tips,
+#v6_pl_content_biztips,
+#plc_bot,
+div[feedtype="ad"],
+div[node-type="feed_nav"],
+div[node-type="leftnav_scroll"],
+div[node-type="player"],
+div[node-type="feed_spread"],
+a[nm="home"] .S_txt1,
+a[nm="find"],
+a[nm="game"] {
+  display: none !important; }
+
+body, .WB_frame {
+  background-color: #FFF !important;
+  line-height: 1.54; }
+
+.WB_global_nav,
+.gn_set,
+.WB_feed_spec,
+.W_pages .prev,
+.W_pages .next,
+.lev_Box {
+  border: none !important;
+  box-shadow: none; }
+
+.WB_feed_spec .spec_box {
+  background-color: #FBFBFB; }
+
+.gn_nav {
+  margin-left: 15px !important; }
+
+.S_txt1,
+.gn_set,
+.gn_person {
+  color: #AAA !important; }
+
+.WB_feed_handle,
+.func_area,
+.ficon_arrow_down,
+.WB_func {
+  border: none;
+  opacity: 0; }
+  .WB_feed_handle:hover,
+  .func_area:hover,
+  .ficon_arrow_down:hover,
+  .WB_func:hover {
+    opacity: 1; }
+
+.WB_cardwrap {
+  box-shadow: none; }
+
+div[node-type="tips"],
+.WB_webim .webim_win_minD,
+.gn_topmenulist {
+  border: none !important;
+  background: #FFF !important;
+  box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.2) !important; }
+
+.gn_search {
+  margin: 11px 0 10px 250px !important; }
+  .gn_search .W_input {
+    color: #DDD !important; }
+
+.W_input,
+.WB_row_line .line {
+  background: none !important;
+  border: none !important; }
+
+.S_ficon {
+  color: #AAA !important; }
+
+.WB_main_c {
+  margin-left: 20px; }
+
+.S_bg1 {
+  background-color: #FBFBFB; }
+
+.WB_notes {
+  margin: -20px 0 0;
+  padding: 0;
+  background: none; }
+
+.W_btn_c {
+  border: none !important;
+  background-color: #FBFBFB !important; }
+
+/*# sourceMappingURL=weiboo6.css.map */
