@@ -3,13 +3,21 @@
 .gn_logo,
 .ficon_user,
 .ficon_search,
+.ficon_setup,
+.WB_info i,
+.icon_approve,
+.icon_approve_co,
+.icon_club,
+.icon_zongyika2014,
 .WB_from,
 .W_arrow_bor,
 .send_weibo,
 .gn_person,
 .W_vline,
-.W_icon,
 .W_tips,
+.W_layer_tips,
+.tab_feed_a,
+.between_line,
 #v6_pl_content_biztips,
 #plc_bot,
 div[feedtype="ad"],
@@ -27,10 +35,18 @@ body, .WB_frame {
   line-height: 1.54; }
 
 .WB_global_nav,
-.gn_set,
+.WB_func .WB_handle li .line,
+.WB_feed_repeat,
+.WB_repeat,
+.WB_cardmore,
 .WB_feed_spec,
 .W_pages .prev,
 .W_pages .next,
+.WB_row_line,
+.gn_set,
+.list_li,
+fieldset,
+.webim_list_head,
 .lev_Box {
   border: none !important;
   box-shadow: none; }
@@ -42,6 +58,7 @@ body, .WB_frame {
   margin-left: 15px !important; }
 
 .S_txt1,
+a[render="ext"],
 .gn_set,
 .gn_person {
   color: #AAA !important; }
@@ -63,6 +80,11 @@ body, .WB_frame {
 
 div[node-type="tips"],
 .WB_webim .webim_win_minD,
+.layer_menu_list,
+.W_layer_pop .content,
+.W_layer .content,
+.wbim_chat_box,
+.webim_list,
 .gn_topmenulist {
   border: none !important;
   background: #FFF !important;
@@ -95,5 +117,16 @@ div[node-type="tips"],
 .W_btn_c {
   border: none !important;
   background-color: #FBFBFB !important; }
+
+img[node-type="_chatUserPic"],
+.WB_face img {
+  border-radius: 50px; }
+
+.WB_webim .webim_win_minD {
+  text-align: center;
+  width: 90px; }
+
+.WB_row_line .pos {
+  margin-left: 20px; }
 
 /*# sourceMappingURL=weiboo6.css.map */

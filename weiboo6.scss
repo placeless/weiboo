@@ -1,20 +1,24 @@
-// .WB_main_r                                 *** 右边栏
-// .title_area                                *** 新鲜事告诉大家
-// #v6_pl_content_biztips                     *** 发布栏下边广告位
-// feedtype="ad"                              *** 微博精选
-
 .WB_main_r,
 .title_area,
 .gn_logo,
 .ficon_user,
 .ficon_search,
+.ficon_setup,
+.WB_info i,
+.icon_approve,
+.icon_approve_co,
+.icon_club,
+.icon_zongyika2014,
 .WB_from,
+// .WB_handle li,
 .W_arrow_bor,
 .send_weibo,
 .gn_person,
 .W_vline,
-.W_icon,
 .W_tips,
+.W_layer_tips,
+.tab_feed_a,
+.between_line,
 #v6_pl_content_biztips,
 #plc_bot,
 div[feedtype="ad"],
@@ -22,6 +26,7 @@ div[node-type="feed_nav"],
 div[node-type="leftnav_scroll"],
 div[node-type="player"],
 div[node-type="feed_spread"],
+// a[action-type="ignore_list"],
 a[nm="home"] .S_txt1,
 a[nm="find"],
 a[nm="game"] {
@@ -34,10 +39,20 @@ body, .WB_frame {
 }
 
 .WB_global_nav,
-.gn_set,
+.WB_func .WB_handle li .line,
+.WB_feed_repeat,
+.WB_repeat,
+.WB_cardmore,
 .WB_feed_spec,
 .W_pages .prev,
 .W_pages .next,
+.WB_row_line,
+// .WB_feed_repeat .repeat_list .tab_feed_a,
+// .tab_feed_a .tab .line,
+.gn_set,
+.list_li,
+fieldset,
+.webim_list_head,
 .lev_Box {
 // .send_weibo {
   border:none !important;
@@ -58,6 +73,8 @@ body, .WB_frame {
 }
 
 .S_txt1,
+// .a_topic,
+a[render="ext"],
 .gn_set,
 .gn_person {
   color: #AAA !important;
@@ -80,6 +97,11 @@ body, .WB_frame {
 
 div[node-type="tips"],
 .WB_webim .webim_win_minD,
+.layer_menu_list,
+.W_layer_pop .content,
+.W_layer .content,
+.wbim_chat_box,
+.webim_list,
 .gn_topmenulist {
   border: none !important;
   background: #FFF !important;
@@ -119,4 +141,18 @@ div[node-type="tips"],
 .W_btn_c {
   border: none !important;
   background-color: #FBFBFB !important;
+}
+
+img[node-type="_chatUserPic"],
+.WB_face img {
+  border-radius: 50px;
+}
+
+.WB_webim .webim_win_minD {
+  text-align: center;
+  width: 90px;
+}
+
+.WB_row_line .pos {
+  margin-left: 20px;
 }
