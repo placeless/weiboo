@@ -10,6 +10,7 @@
 .icon_club,
 .icon_zongyika2014,
 .WB_from,
+.WB_repeat .WB_face,
 .WB_feed_together,
 // .WB_handle li,
 .W_arrow_bor,
@@ -144,8 +145,7 @@ div[node-type="tips"],
   background-color: #FBFBFB !important;
 }
 
-img[node-type="_chatUserPic"],
-.WB_face img {
+img[node-type="_chatUserPic"] {
   border-radius: 50px;
 }
 
