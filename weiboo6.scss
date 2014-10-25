@@ -9,6 +9,15 @@
 .icon_approve_co,
 .icon_club,
 .icon_zongyika2014,
+.icon_member1,
+.icon_member2,
+.icon_member3,
+.icon_member4,
+.icon_member5,
+.icon_member6,
+.icon_member7,
+.icon_taobao,
+.icon_double11,
 .WB_from,
 .WB_repeat .WB_face,
 .WB_feed_together,
@@ -19,7 +28,8 @@
 .W_vline,
 .W_tips,
 .W_layer_tips,
-.tab_feed_a,
+// .tab_feed_a,
+.tab_feed_a.clearfix.S_line1,
 .between_line,
 #v6_pl_content_biztips,
 #plc_bot,
@@ -71,7 +81,8 @@ fieldset,
 // }
 
 .gn_nav {
-  margin-left: 15px !important;
+  margin-left: 17px !important;
+  float: left !important;
 }
 
 .S_txt1,
@@ -82,7 +93,7 @@ a[render="ext"],
   color: #AAA !important;
 }
 
-.WB_feed_handle,
+.WB_handle,
 .func_area,
 .ficon_arrow_down,
 .WB_func {
@@ -156,4 +167,21 @@ img[node-type="_chatUserPic"] {
 
 .WB_row_line .pos {
   margin-left: 20px;
+}
+
+.WB_feed_handle {
+  width: 514px;
+  margin-left: 70px;
+}
+
+.WB_publish,
+.list_con {
+  margin: 0 !important;
+}
+
+.WB_feed_publish {
+  padding:10px 30px;
+}
+.repeat_list {
+  padding: 0 30px 0 70px;
 }
