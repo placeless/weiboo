@@ -19,6 +19,7 @@
 .icon_taobao,
 .icon_double11,
 .WB_from,
+.WB_frame_bottom,
 .WB_repeat .WB_face,
 .WB_feed_together,
 .WBIM_news,
@@ -39,6 +40,7 @@ div[node-type="feed_nav"],
 div[node-type="leftnav_scroll"],
 div[node-type="player"],
 div[node-type="feed_spread"],
+.gn_nav_list li:last-child,
 // a[action-type="ignore_list"],
 a[nm="home"] .S_txt1,
 a[nm="find"],
@@ -81,10 +83,14 @@ fieldset,
 //   border-radius: 2px;
 // }
 
-.gn_nav {
-  margin-left: 17px !important;
-  float: left !important;
+// .gn_nav {
+//   margin-left: 17px !important;
+//   float: left !important;
+// }
+.WB_global_nav .gn_nav {
+  margin: 10px -62px 11px 0px;
 }
+
 
 .S_txt1,
 // .a_topic,
@@ -143,7 +149,7 @@ div[node-type="tips"],
 }
 
 .S_bg1 {
-  background-color: #FBFBFB;
+  background-color: #FBFBFB !important;
 }
 
 .WB_notes {
@@ -185,4 +191,8 @@ img[node-type="_chatUserPic"] {
 }
 .repeat_list {
   padding: 0 30px 0 70px;
+}
+
+.fold_cont {
+  width: 60px !important;
 }
