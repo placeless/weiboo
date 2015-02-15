@@ -158,10 +158,10 @@ div[node-type="tips"],
   background: none;
 }
 
-.W_btn_c {
-  border: none !important;
-  background-color: #FBFBFB !important;
-}
+// .W_btn_c {
+//   border: none !important;
+//   background-color: #FBFBFB !important;
+// }
 
 img[node-type="_chatUserPic"] {
   border-radius: 50px;
@@ -195,4 +195,12 @@ img[node-type="_chatUserPic"] {
 
 .fold_cont {
   width: 60px !important;
+}
+
+// link button
+.W_btn_b {
+  border: none !important;
+}
+.W_btn_cardlink {
+  background: none !important;
 }
