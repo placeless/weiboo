@@ -24,8 +24,9 @@
 .WB_feed_together,
 .WBIM_news,
 .W_arrow_bor,
-.send_weibo,
+#v6_pl_content_publishertop,
 .gn_person,
+.gn_set_list:last-of-type,
 .W_vline,
 .W_tips,
 .W_layer_tips,
@@ -39,6 +40,7 @@ div[node-type="leftnav_scroll"],
 div[node-type="player"],
 div[node-type="feed_spread"],
 .gn_nav_list li:last-child,
+.WB_feed_spec_info .WB_feed_spec_clearfix,
 a[nm="home"] .S_txt1,
 a[nm="find"],
 a[nm="game"] {
@@ -65,8 +67,11 @@ fieldset,
   border: none !important;
   box-shadow: none; }
 
-.WB_feed_spec .spec_box {
-  background-color: #FBFBFB; }
+.spec_box {
+  background-color: #FFF; }
+
+.WB_media_a_mn {
+  margin: -6px 0px 0px -3px; }
 
 .WB_global_nav .gn_nav {
   margin: 10px -62px 11px 0px; }
@@ -88,6 +93,9 @@ a[render="ext"],
   .ficon_arrow_down:hover,
   .WB_func:hover {
     opacity: 1; }
+
+.WB_media_wrap {
+  margin: 10px 0px 8px -10px; }
 
 .WB_cardwrap {
   box-shadow: none; }
@@ -131,9 +139,12 @@ div[node-type="tips"],
 img[node-type="_chatUserPic"] {
   border-radius: 50px; }
 
-.WB_webim .webim_win_minD {
+.webim_fold {
   text-align: center;
-  width: 90px; }
+  width: 60px !important;
+  box-shadow: none; }
+  .webim_fold .fold_bg {
+    background: none; }
 
 .WB_row_line .pos {
   margin-left: 20px; }
@@ -156,9 +167,17 @@ img[node-type="_chatUserPic"] {
   width: 60px !important; }
 
 .W_btn_b {
-  border: none !important; }
+  border: none !important;
+  box-shadow: none; }
+  .W_btn_b:hover {
+    box-shadow: none; }
 
 .W_btn_cardlink {
-  background: none !important; }
+  background: none !important;
+  margin: 0;
+  padding: 0; }
+  .W_btn_cardlink .W_autocut {
+    max-width: 500px !important;
+    margin-left: 2px !important; }
 
 /*# sourceMappingURL=weiboo6.css.map */
