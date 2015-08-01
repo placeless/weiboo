@@ -20,6 +20,7 @@
 .icon_member7,
 .icon_taobao,
 .icon_double11,
+.PCD_mplayer,
 .WB_from,
 .WB_frame_bottom,
 .WB_repeat .WB_face,
@@ -182,4 +183,6 @@ img[node-type="_chatUserPic"] {
     max-width: 500px !important;
     margin-left: 2px !important; }
 
-/*# sourceMappingURL=weiboo6.css.map */
+.WB_feed_detail.clearfix {
+  background-image: none !important;
+}
