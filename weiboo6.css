@@ -186,3 +186,7 @@ img[node-type="_chatUserPic"] {
 .WB_feed_detail.clearfix {
   background-image: none !important;
 }
+
+.WB_miniblog, .S_page .WB_miniblog, body, .S_page {
+  background: none !important;
+}
