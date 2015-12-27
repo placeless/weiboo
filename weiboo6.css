@@ -115,10 +115,17 @@ div[node-type="tips"],
   background: #FFF !important;
   box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.2) !important; }
 
-.gn_search {
-  margin: 11px 0 10px 250px !important; }
-  .gn_search .W_input {
-    color: #DDD !important; }
+.gn_search_v2 {
+  margin: 10px 0 0 240px !important;
+  border: none !important;
+  background: none !important; }
+.gn_search_v2 span {
+  display: none !important;
+}
+.gn_position {
+  float: left !important;
+  margin-left: -545px !important;
+}
 
 .W_input,
 .WB_row_line .line {
