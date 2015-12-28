@@ -21,6 +21,7 @@
 .icon_taobao,
 .icon_double11,
 .PCD_mplayer,
+.PCD_nodelayer
 .WB_from,
 .WB_frame_bottom,
 .WB_repeat .WB_face,
@@ -46,6 +47,7 @@ div[node-type="feed_spread"],
 .WB_feed_spec_info .WB_feed_spec_clearfix,
 a[nm="home"] .S_txt1,
 a[nm="find"],
+div[feedtype="top"],
 a[nm="game"] {
   display: none !important; }
 
@@ -122,10 +124,10 @@ div[node-type="tips"],
 .gn_search_v2 span {
   display: none !important;
 }
-.gn_position {
+/*.gn_position {
   float: left !important;
   margin-left: -545px !important;
-}
+}*/
 
 .W_input,
 .WB_row_line .line {
