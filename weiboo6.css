@@ -21,7 +21,8 @@
 .icon_taobao,
 .icon_double11,
 .PCD_mplayer,
-.PCD_nodelayer
+.PCD_nodelayer,
+.icon_redpack,
 /*.WB_from,*/
 .WB_frame_bottom,
 .WB_repeat .WB_face,
@@ -87,19 +88,19 @@ a[render="ext"],
 .gn_person {
   color: #AAA !important; }
 
-.WB_from.S_txt2,
+.WB_from,
 .WB_handle,
 .func_area,
 .ficon_arrow_down,
 .WB_func {
   border: none;
   opacity: 0; }
-  .WB_from.S_txt2:hover,
-  .WB_handle:hover,
-  .func_area:hover,
-  .ficon_arrow_down:hover,
-  .WB_func:hover {
-    opacity: 1; }
+.WB_from:hover,
+.WB_handle:hover,
+.func_area:hover,
+.ficon_arrow_down:hover,
+.WB_func:hover {
+  opacity: 1; }
 
 .WB_media_wrap {
   margin: 10px 0px 8px -10px; }
