@@ -1,0 +1,203 @@
+/**
+** font, background
+**/
+body {
+  font: 400 14px/1.6 "Avenir Next", "Avenir", "Helvetica Neue", "Helvetica", "Lantinghei SC", "Heiti SC", "PingFang SC", "Hiragino Sans GB", sans-serif !important;
+  text-rendering: optimizeLegibility;
+  background-color: #FFF !important;
+}
+
+.WB_miniblog {
+  background: none;
+  padding-top: 20px;
+}
+.WB_frame { background: none; }
+.gn_search_v2,
+.gn_set_list,
+.WB_toptips { font-size: 12px !important; }
+
+/**``
+** navigation
+**/
+.WB_global_nav { height: 30px; }
+.WB_global_nav,
+.S_line1 {
+  border: none !important;
+  box-shadow: none !important;
+}
+.gn_search_v2 {
+  border: none !important;
+  background: none !important;
+  width: 200px !important;
+  height: 28px !important;
+  margin: 1px 0 0 340px !important;
+}
+.gn_search_v2 span { display: none; }
+.WB_global_nav .gn_position {
+  margin-left: -8px;
+  position: absolute;
+  top: 150px;
+}
+.gn_set_list {
+  float: none !important;
+  display: block !important;
+  height: 34px !important;
+}
+.gn_topmenulist, .layer_menu_list { right: initial !important; }
+.gn_topmenulist .gn_func { text-align: left !important; }
+
+h3.lev a { font-weight: 400 !important; }
+.WB_left_nav { width: 70px !important; }
+.WB_left_nav .lev_curr,
+.WB_left_nav .lev_curr:hover,
+.WB_left_nav .lev a:hover {
+  background: none !important;
+  font-weight: 600 !important;
+}
+.WB_global_nav .W_ficon { font-size: 18px; }
+
+/**
+** indicators
+**/
+.WB_notes {
+  background: none !important;
+}
+
+/**
+** cards
+**/
+.WB_main_c {
+  margin-left: 50px;
+}
+.WB_expand {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: none !important;
+}
+// .W_f14 { font-size: 12px; }
+.W_fb,
+.W_autocut {
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  color: #999;
+}
+a[extra-data="type=atname"],
+a[action-type="feed_list_url"],
+a[action-type="fl_unfold"],
+.tab_feed_a a,
+.a_topic,
+.repeat_list,
+.repeat_list a {
+  color: #999 !important;
+  font-size: 12px !important;
+ }
+img[type="face"] { height: 14px; vertical-align: -2px !important;}
+.WB_text {
+  font-size: 14px !important;
+}
+
+.WB_repeat { padding: 0 0 6px !important; }
+.repeat_list { padding: 0 20px 0 40px !important; }
+.repeat_list .WB_text {font-size: 12px !important; }
+
+.WB_cardwrap,
+.WB_row_line {
+  border: none !important;
+  box-shadow: none !important;
+}
+.S_line2,
+.S_bg1,
+.WB_feed_spec_pic,
+.WB_feed_detail {
+  background: none !important;
+  border: none !important;
+}
+.WB_handle { opacity: 0; margin-left: 76px; margin-top: -10px; }
+.WB_handle:hover { opacity: 1; }
+.WB_handle li {
+  width: 10%;
+  float: left;
+}
+
+.WB_screen.W_fr {
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    position: absolute;
+}
+.S_ficon, .W_ficon { color: #999 !important; }
+.ficon_arrow_down { opacity: 0 !important; }
+.ficon_arrow_down:hover { opacity: 1 !important; }
+
+/**
+** display:none
+**/
+.icon_hong,
+#v6_pl_content_favlistsearch,
+.WB_tag_s,
+a[suda-uatrack="key=V6update_leftnavigate&value=left_hotweibo"],
+.lev_Box.lev_Box_noborder
+.WB_tag_rec,
+.WB_tag_rec_v2,
+.WB_vipcover,
+.lev_line,
+.lev_line_v2,
+.gn_nav,
+.WB_main_r,
+.WB_ad_tm2015,
+.webim_news,
+.WB_webim,
+.title_area,
+.gn_logo,
+.ficon_user,
+.ficon_search,
+.ficon_setup,
+.WB_info i,
+.icon_approve,
+.icon_approve_co,
+.icon_club,
+.icon_zongyika2014,
+.icon_member1,
+.icon_member2,
+.icon_member3,
+.icon_member4,
+.icon_member5,
+.icon_member6,
+.icon_member7,
+.icon_taobao,
+.icon_double11,
+.PCD_mplayer,
+.PCD_nodelayer,
+.icon_redpack,
+.icon_suishoupai2014,
+.WB_from.S_txt2,
+.WB_func,
+.W_skin_banner,
+/*.WB_from,*/
+.WB_frame_bottom,
+.WB_repeat .WB_face,
+.WB_feed_together,
+.WBIM_news,
+.W_arrow_bor,
+#v6_pl_content_publishertop,
+.gn_person,
+.gn_set_list:last-of-type,
+.W_vline,
+.W_tips,
+.W_layer_tips,
+.tab_feed_a.clearfix.S_line1,
+.between_line,
+#v6_pl_content_biztips,
+#plc_bot,
+div[feedtype="ad"],
+div[node-type="feed_nav"],
+div[node-type="leftnav_scroll"],
+div[node-type="player"],
+div[node-type="feed_spread"],
+div[mrid*=_512_],
+.gn_nav_list li:last-child,
+.WB_feed_spec_info .WB_feed_spec_clearfix,
+a[nm="home"] .S_txt1,
+a[nm="find"],
+div[feedtype="top"],
+a[nm="game"] { display: none !important; }
