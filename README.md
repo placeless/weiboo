@@ -1,8 +1,5 @@
 ## 用法
 
-将 `weiboo.css` 内代码，复制到浏览器插件 **Stylish** 之内
+将 `weiboo7.css` 内代码，复制到浏览器插件 **Stylish** 插件之内，domain 设置为 `weibo.com`
 
-如果是微博V6，将 `weiboo6.css` 内代码，复制到浏览器插件 **Stylish** 之内
-
-<!-- ![Screenshot](screenshot.jpg) -->
-![Screenshot](screenshot2.jpg)
+![Screenshot](weiboo7.png)
