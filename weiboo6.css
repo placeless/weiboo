@@ -24,6 +24,8 @@
 .PCD_nodelayer,
 .icon_redpack,
 .icon_suishoupai2014,
+.WB_from.S_txt2,
+.WB_func,
 /*.WB_from,*/
 .WB_frame_bottom,
 .WB_repeat .WB_face,
@@ -54,9 +56,14 @@ div[feedtype="top"],
 a[nm="game"] {
   display: none !important; }
 
-body, .WB_frame {
+body,
+.WB_frame,
+.WB_main_c {
+  /*font-family: "PingFang SC" !important;*/
+  font: 400 14px/1.6 "Avenir Next", "Avenir", "Helvetica Neue", "Helvetica", "Lantinghei SC", "Heiti SC", "PingFang SC", "Hiragino Sans GB", sans-serif !important;
+  text-rendering: optimizeLegibility;
   background-color: #FFF !important;
-  line-height: 1.54; }
+}
 
 .WB_global_nav,
 .WB_func .WB_handle li .line,
@@ -206,16 +213,17 @@ img[node-type="_chatUserPic"] {
 }
 .WB_miniblog { padding-top: 50px; }
 
-body {
-  font-family: "PingFang SC" !important;
-}
-
-.WB_expand.S_bg1 {
-  margin: 10px 0;
-  padding: 0;
-  font-size: 14px;
-}
-
 .S_txt2 {
   font-size: 12px;
 }
+
+.WB_info,
+.WB_feed_v3,
+.WB_expand.S_bg1 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.WB_feed_expand { margin-top: 10px !important; }
+
+/*.WB_info { font-size: 12px !important; }*/
