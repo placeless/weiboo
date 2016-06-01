@@ -16,10 +16,10 @@ body {
 .gn_set_list,
 .WB_toptips { font-size: 12px !important; }
 
-/**``
+/**
 ** navigation
 **/
-.WB_global_nav { height: 30px; }
+.WB_global_nav, .gn_header { height: 30px !important; }
 .WB_global_nav,
 .S_line1 {
   border: none !important;
@@ -43,7 +43,7 @@ body {
   display: block !important;
   height: 34px !important;
 }
-.gn_topmenulist, .layer_menu_list { right: initial !important; }
+.gn_topmenulist, .layer_menu_list { right: inherit !important; }
 .gn_topmenulist .gn_func { text-align: left !important; }
 
 h3.lev a { font-weight: 400 !important; }
@@ -74,7 +74,7 @@ h3.lev a { font-weight: 400 !important; }
   padding: 0 !important;
   background: none !important;
 }
-// .W_f14 { font-size: 12px; }
+/*.W_f14 { font-size: 12px; }*/
 .W_fb,
 .W_autocut {
   font-weight: 400 !important;
@@ -84,6 +84,8 @@ h3.lev a { font-weight: 400 !important; }
 a[extra-data="type=atname"],
 a[action-type="feed_list_url"],
 a[action-type="fl_unfold"],
+a[action-type="fl_fold"],
+a[action-type="widget_photoview"],
 .tab_feed_a a,
 .a_topic,
 .repeat_list,
@@ -112,10 +114,10 @@ img[type="face"] { height: 14px; vertical-align: -2px !important;}
   background: none !important;
   border: none !important;
 }
-.WB_handle { opacity: 0; margin-left: 76px; margin-top: -10px; }
+.WB_handle { opacity: 0; margin-left: 78px; margin-top: -10px; width: 250px; }
 .WB_handle:hover { opacity: 1; }
 .WB_handle li {
-  width: 10%;
+  width: 20%;
   float: left;
 }
 
@@ -132,6 +134,8 @@ img[type="face"] { height: 14px; vertical-align: -2px !important;}
 /**
 ** display:none
 **/
+/*span[node-type="comment_btn_text"] em:nth(2),*/
+/*span[node-type="favorite_btn_text"] em:nth(2),*/
 .icon_hong,
 #v6_pl_content_favlistsearch,
 .WB_tag_s,
