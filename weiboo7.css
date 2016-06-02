@@ -5,6 +5,7 @@ body {
   font: 400 14px/1.6 "Avenir Next", "Avenir", "Helvetica Neue", "Helvetica", "Lantinghei SC", "Heiti SC", "PingFang SC", "Hiragino Sans GB", sans-serif !important;
   text-rendering: optimizeLegibility;
   background-color: #FFF !important;
+  background-image: none !important;
 }
 
 .WB_miniblog {
@@ -46,7 +47,7 @@ body {
 .gn_topmenulist, .layer_menu_list { right: inherit !important; }
 .gn_topmenulist .gn_func { text-align: left !important; }
 
-h3.lev a { font-weight: 400 !important; }
+h3.lev a { font-weight: 400 !important; color: #666 !important; }
 .WB_left_nav { width: 70px !important; }
 .WB_left_nav .lev_curr,
 .WB_left_nav .lev_curr:hover,
@@ -81,6 +82,7 @@ h3.lev a { font-weight: 400 !important; }
   font-size: 12px !important;
   color: #999;
 }
+
 a[extra-data="type=atname"],
 a[action-type="feed_list_url"],
 a[action-type="fl_unfold"],
@@ -93,10 +95,15 @@ a[action-type="widget_photoview"],
   color: #999 !important;
   font-size: 12px !important;
  }
-img[type="face"] { height: 14px; vertical-align: -2px !important;}
-.WB_text {
-  font-size: 14px !important;
+
+img[type="face"],
+.WB_feed_v3 .WB_text img {
+  height: 14px !important;
+  width: 14px !important;
+  vertical-align: -2px !important;
 }
+
+.WB_text { font-size: 14px !important; }
 
 .WB_repeat { padding: 0 0 6px !important; }
 .repeat_list { padding: 0 20px 0 40px !important; }
