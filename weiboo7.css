@@ -121,7 +121,7 @@ img[type="face"],
   background: none !important;
   border: none !important;
 }
-.WB_handle { opacity: 0; margin-left: 78px; margin-top: -10px; width: 400px; }
+.WB_handle { opacity: 0; margin-left: 65px; margin-top: -10px; width: 400px; }
 .WB_handle:hover { opacity: 1; }
 .WB_handle li {
   width: 20%;
