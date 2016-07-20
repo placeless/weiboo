@@ -103,7 +103,10 @@ img[type="face"],
   vertical-align: -2px !important;
 }
 
-.WB_text { font-size: 14px !important; }
+.WB_text {
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+}
 
 .WB_repeat { padding: 0 0 6px !important; }
 .repeat_list { padding: 0 20px 0 40px !important; }
